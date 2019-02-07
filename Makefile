@@ -12,6 +12,9 @@ EXECUTABLE	:= main
 
 all: $(BIN)/$(EXECUTABLE)
 
+debug: CXX_FLAGS += -g
+debug: $(BIN)/$(EXECUTABLE)
+
 run: clean all
 	clear
 	./$(BIN)/$(EXECUTABLE)
