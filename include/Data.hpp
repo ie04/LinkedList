@@ -1,4 +1,5 @@
 #pragma once
+enum{ isLarger, isSmaller, isSame };
 
 class Data {
 
@@ -11,7 +12,7 @@ public:
     int compare(const Data&);
 
     //Prints value variable
-    void show();
+    void show() const;
 private:
     //Stores node value
     int value;

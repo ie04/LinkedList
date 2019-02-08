@@ -2,7 +2,7 @@
 #include <iostream>
 
 //Compare values
-enum{ isLarger, isSmaller, isSame };
+
 
 Data::Data(int newValue):value(newValue){}
 
@@ -21,6 +21,6 @@ int Data::compare(const Data& toCmp){
     
 }
 
-void Data::show(){ 
+void Data::show() const{ 
     std::cout << value << std::endl; 
 }
