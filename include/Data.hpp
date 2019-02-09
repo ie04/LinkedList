@@ -8,7 +8,7 @@ public:
 
     ~Data();
 
-    //Returns compare values: larger, smaller, etc.
+    //Compares its value with some other data, returning isLarger, isSmaller, or isSame
     int compare(const Data&);
 
     //Prints value variable
