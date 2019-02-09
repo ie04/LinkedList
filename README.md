@@ -1,2 +1,2 @@
 # LinkedList
-Simple linked list implementation in C++ 
+Simple linked list implementation in C++. Singly linked
